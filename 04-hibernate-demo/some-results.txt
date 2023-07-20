@@ -1,0 +1,47 @@
+Laptop running on battery:
+
+Using session. This might be the best approach using hibernate: 8403
+Milliseconds spent creating an object with global transaction: 7059
+Milliseconds spent creating an object with transaction in each loop: 22886
+Milliseconds spent with insert into command in HQL: 13127
+Milliseconds spent with insert into through driver: 3662
+Milliseconds spent with insert into and creating the PK after inserting: 4778
+
+Using session. This might be the best approach using hibernate: 7456
+Milliseconds spent creating an object with global transaction: 7083
+Milliseconds spent creating an object with transaction in each loop: 25511
+Milliseconds spent with insert into command in HQL: 13687
+Milliseconds spent with insert into through driver: 4722
+Milliseconds spent with insert into and creating the PK after inserting: 3529
+
+Using session. This might be the best approach using hibernate: 5761
+Milliseconds spent creating an object with global transaction: 5030
+Milliseconds spent creating an object with transaction in each loop: 21666
+Milliseconds spent with insert into command in HQL: 12968
+Milliseconds spent with insert into through driver: 2612
+Milliseconds spent with insert into and creating the PK after inserting: 3073
+
+Laptop plugged in:
+Using session. This might be the best approach using hibernate: 4136
+Using session with batch processing. This might be the best approach using hibernate: 2704
+Milliseconds spent creating an object with global transaction: 3533
+Milliseconds spent creating an object with transaction in each loop: 19908
+Milliseconds spent with insert into command in HQL: 8438
+Milliseconds spent with insert into through driver: 2738
+Milliseconds spent with insert into and creating the PK after inserting: 2048
+
+Using session. This might be the best approach using hibernate: 3689
+Using session with batch processing. This might be the best approach using hibernate: 2874
+Milliseconds spent creating an object with global transaction: 3014
+Milliseconds spent creating an object with transaction in each loop: 23684
+Milliseconds spent with insert into command in HQL: 8501
+Milliseconds spent with insert into through driver: 2410
+Milliseconds spent with insert into and creating the PK after inserting: 1481
+
+Milliseconds spent creating an object with global transaction: 3220
+Milliseconds spent creating an object with transaction in each loop: 24192
+Milliseconds spent with insert into command in HQL: 13479
+Using session. This might be the best approach using hibernate: 2534
+Using session with batch processing. This might be the best approach using hibernate: 2513
+Milliseconds spent with insert into through driver: 3320
+Milliseconds spent with insert into and creating the PK after inserting: 2088

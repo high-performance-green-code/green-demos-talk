@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  postgresql-database:
+    image: postgres:latest
+    container_name: postgresql-database
+    ports:
+      - 5432:5432
+    environment:
+      # you know, this is only for demo purposes. Never do this in a real environment.
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    volumes:
+      - ./csv-data:/var/lib/postgresql/csv-data
+  pgadmin4-postgresql:
+    image: dpage/pgadmin4
+    container_name: pgadmin4-postgresql
+    ports:
+      - 5050:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'pgadmin4@pgadmin.org'
+      PGADMIN_DEFAULT_PASSWORD: 'admin'
+  adding-primary-key:
+    image: python:3.9.18-bullseye
+    restart: no
+    container_name: adding-primary-key
+    working_dir: /app
+    command: python add-pk.py
+    volumes:
+      - ./add-pk.py:/app/add-pk.py
+      - ./csv-data:/app/csv-data

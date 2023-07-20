@@ -1,0 +1,10 @@
+/hibernate-demo/target/
+/regex-validation/target
+*.parquet
+*.csv
+*.7z
+*/target/*
+*/target/**
+.idea/*
+/.idea/
+*.iml

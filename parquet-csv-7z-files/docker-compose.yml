@@ -1,0 +1,11 @@
+version: '3'
+services:
+  pythonetl:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: pythonetl
+    volumes:
+      - ./parquet-to-csv.py:/app/parquet-to-csv.py
+      - ./parquet-input:/app/parquet-input
+      - ./csv-output:/app/csv-output
