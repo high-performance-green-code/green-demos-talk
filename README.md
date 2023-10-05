@@ -10,9 +10,9 @@ Join us on a hands-on ride to learn some tips & tricks that will improve your ar
 
 Whether you're a performance enthusiast or a green advocate, this talk will help you develop the skills to make IT greener and write code that's both performant and sustainable.
 
-## Slides url: Coming soon
+## [Slides url](./talk-slides)
 
-## Talk recording: Coming soon
+## Talk recording: [Youtube link](https://www.youtube.com/watch?v=CbYZQl27ko8)
 
 ## Demos
 
